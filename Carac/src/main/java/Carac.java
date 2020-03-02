@@ -27,7 +27,6 @@ public class Carac {
     }
     
     boolean verifierCode(){
-        
         String codeSecret = "1234";
         String codeClavier;
         int cpt = 0;
