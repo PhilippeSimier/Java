@@ -22,7 +22,7 @@ vous obtenez un message d'erreur “**no main manifest attribute**”.
 Cela se produit lorsque le projet est en cours de construction par Maven. La classe principale que vous avez spécifiée dans les propriétés Netbeans n'est pas exportée par Netbeans dans le fichier **pom.xml** utilisé par Maven; en d'autres termes: Netbeans sait quelle est votre classe principale mais pas Maven.
 
 Pour résoudre ce problème, vous devez modifier à la main le fichier **pom.xml** de votre projet .
-Vous devez ajouter l'extrait XML suivant à votre pom.xml, il peut aller n'importe où dans l'élément <project>, on le mets généralement après l'élément `<properties>`: Bien sûr adaptez le chemin et le nom de la classe principale en fonction de votre projet.
+Vous devez ajouter l'extrait XML suivant à votre pom.xml, il peut aller n'importe où dans l'élément `<project>`, on le mets généralement après l'élément `<properties>`: Bien sûr adaptez le chemin et le nom de la classe principale en fonction de votre projet.
 
 ## Extrait du fichier pom.xml
 Dans le fichier pom.xml
