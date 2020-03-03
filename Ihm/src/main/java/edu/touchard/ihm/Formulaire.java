@@ -5,6 +5,8 @@
  */
 package edu.touchard.ihm;
 
+import java.awt.Color;
+
 /**
  *
  * @author psimier
@@ -15,6 +17,7 @@ public class Formulaire extends javax.swing.JFrame {
      * Creates new form Formulaire
      */
     public Formulaire() {
+        getContentPane().setBackground(Color.cyan);
         initComponents();
     }
 
