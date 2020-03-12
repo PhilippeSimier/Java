@@ -2,7 +2,7 @@
 import java.util.Scanner;
 /**
  *
- * @author yletessier
+ * @author psimier
  */
 public class Carac {
 
